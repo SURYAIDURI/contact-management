@@ -1,0 +1,39 @@
+/* src/styles.css */
+
+/* Style the container holding the map */
+#map-container {
+    height: 100vh;
+  }
+  
+  /* Style the popup content */
+  .popup-content {
+    text-align: center;
+  }
+  
+  /* Style the country name */
+  .country-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the flag image */
+  .flag-image {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Style the map markers */
+  .leaflet-marker-icon {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Style the marker icon shadow */
+  .leaflet-marker-shadow {
+    display: none;
+  }
+  
